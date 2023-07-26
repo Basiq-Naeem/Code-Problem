@@ -26,3 +26,6 @@ console.log(sol)
 
 document.getElementById('answer').innerHTML = sol
 document.getElementById('problem').innerHTML = arr
+
+
+//everthing is good and alright good work Abdul Moiz
