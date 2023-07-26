@@ -14,18 +14,16 @@ console.log("hello world");
 // i.e. g and f in str 2.
 
 
-var arr=[1,2,3,4,5,7,8];
+var arr=[1,2,3,4,5,7,8]; //use const
 
 
-var first =-1;
-var second=-1;
+var first =-1; // use let
+var second=-1; // use let
 
 arr.forEach(element => {
     if(element>first){
         second=first;
         first=element;
-        
-
     }
 
     else if(second<first && second<element){
